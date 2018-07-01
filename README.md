@@ -7,7 +7,6 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
 
 ### Solution
-
     Load the portfolio data from an input file, and build a tree structure to represent the fund relationship.
 
     The class definition:
@@ -44,19 +43,16 @@ This project is an implementation of a Portfolio Weight Calculator which was des
     When ending market value (file) is provided, load the ending market file into a separate tree map,  
     then calculate the weighted return.  
 
-
 ### Development Environment:
       Python 3.7
 
-
 ### Source Code:  
-        `calculator.py`
-        `fund.py`
-        `weight-calc.py`
-
+        **calculator.py**  
+        **fund.py**  
+        **weight-calc.py**  
 
 ### Command Line Usage:
-        `python  weight-calc.py  -f portfolio_file  [  -e  portfolio_file   |   -h  ]`
+        **python  weight-calc.py  -f portfolio_file  [  -e  portfolio_file   |   -h  ]**  
         Options:  
             -h, --help            show this help message and exit  
 
@@ -68,7 +64,7 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
 ### Test
     1. Calculator
-        `python  weight-calc.py   -f ./test_data/sample_portfolio.txt`
+        **python  weight-calc.py   -f ./test_data/sample_portfolio.txt**  
 
         input file:  
             A,B,1000  
@@ -87,7 +83,7 @@ This project is an implementation of a Portfolio Weight Calculator which was des
             A,H,0.333  
 
     2. Extended Calculator
-        `python  weight-calc.py   -f ./test_data/sample_portfolio.txt      -e  ./test_data/ending_portfolio.txt`
+        **python  weight-calc.py   -f ./test_data/sample_portfolio.txt      -e  ./test_data/ending_portfolio.txt**  
 
         input file:  
 
