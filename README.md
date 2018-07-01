@@ -49,9 +49,9 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
 -  Source Code:
 
-    -rw-r--r-- 1 youngf 197121 4418 Jul  1 17:12 calculator.py
-    -rw-r--r-- 1 youngf 197121  332 Jul  1 17:01 fund.py
-    -rw-r--r-- 1 youngf 197121 1098 Jul  1 17:07 weight-calc.py
+    calculator.py
+    fund.py
+    weight-calc.py
 
 
 -  Command Line Usage:
@@ -98,7 +98,7 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
         input file:
           sample__portfolio.txt      ending_portfolio.txt
-       -------------------------------------------------
+       =====================================================
             A,B,1000                     A,B,1040
             A,C,2000                     A,C,2000
             B,D,500                      B,D,490
