@@ -99,7 +99,3 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
         output:  
             weighted return of A: 1.33 %  
-
-### To Be Improved
-        The tree map for the ending market value could be omitted,  
-        and share the tree map with the starting market value instead.  
