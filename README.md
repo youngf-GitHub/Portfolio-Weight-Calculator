@@ -98,7 +98,7 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
         input file:
           sample__portfolio.txt      ending_portfolio.txt
-       #-------------------------------------------------
+       -------------------------------------------------
             A,B,1000                     A,B,1040
             A,C,2000                     A,C,2000
             B,D,500                      B,D,490
