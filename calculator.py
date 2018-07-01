@@ -97,7 +97,7 @@ class Calculator:
 
         return base_funds
 
-    def print_start_pf_ratio(self):
+    def print_fund_ratio(self):
 
         for name, root in self.start_market_tree_map.items():
             if root.parent == "":

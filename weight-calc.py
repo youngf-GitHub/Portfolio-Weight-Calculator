@@ -26,7 +26,7 @@ def main():
 
         if len(calculator.end_market_tree_map) == 0:
 
-            calculator.print_start_pf_ratio()
+            calculator.print_fund_ratio()
 
         else:
 
