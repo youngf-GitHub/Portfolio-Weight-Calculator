@@ -52,19 +52,18 @@ This project is an implementation of a Portfolio Weight Calculator which was des
         **weight-calc.py**  
 
 ### Command Line Usage:
-        **python  weight-calc.py  -f portfolio_file  [  -e  portfolio_file   |   -h  ]**  
+        python   weight-calc.py   -f portfolio_file  [  -e  portfolio_file   |   -h  ]  
+
         Options:  
             -h, --help            show this help message and exit  
-
             -f PORTFOLIO_FILE, --file=PORTFOLIO_FILE  
                                 portfolio input file  
-
             -e ENDING_PORTFOLIO_FILE, --end=ENDING_PORTFOLIO_FILE  
                                 portfolio ending mv file  
 
 ### Test
     1. Calculator
-        **python  weight-calc.py   -f ./test_data/sample_portfolio.txt**  
+        python  weight-calc.py    -f ./test_data/sample_portfolio.txt  
 
         input file:  
             A,B,1000  
@@ -83,7 +82,7 @@ This project is an implementation of a Portfolio Weight Calculator which was des
             A,H,0.333  
 
     2. Extended Calculator
-        **python  weight-calc.py   -f ./test_data/sample_portfolio.txt      -e  ./test_data/ending_portfolio.txt**  
+        python   weight-calc.py    -f ./test_data/sample_portfolio.txt    -e  ./test_data/ending_portfolio.txt  
 
         input file:  
 
@@ -102,4 +101,5 @@ This project is an implementation of a Portfolio Weight Calculator which was des
             weighted return of A: 1.33 %  
 
 ### To Be Improved
-        The tree map for the ending market value could be omitted, and share the tree map with the starting market value instead.  
+        The tree map for the ending market value could be omitted,  
+        and share the tree map with the starting market value instead.  
