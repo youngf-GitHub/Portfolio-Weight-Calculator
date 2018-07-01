@@ -26,12 +26,12 @@ This project is an implementation of a Portfolio Weight Calculator which was des
             end_market_tree_map
             current_file_name
 
-    The Fund A = { B(1000), C(2000) } will be presented as below in the tree_map:
+    The Fund A = { B(1000), C(2000) } will be presented as below in the tree_map (assume B and C are not leaf node):
 
     {  
-        A: name=A, parent='', has_child=True, mv=3000, aggregated_mv=3000, weight=0  
-        B: name=B, parent=A,  has_child=True, mv=1000, aggregated_mv=1000, weight=0  
-        C: name=C, parent=A,  has_child=True, mv=2000, aggregated_mv=2000, weight=0  
+        "A": Fund (name=A, parent='', has_child=True, mv=3000, aggregated_mv=3000, weight=0)  
+        "B": Fund (name=B, parent=A,  has_child=True, mv=1000, aggregated_mv=1000, weight=0)  
+        "C": Fund (name=C, parent=A,  has_child=True, mv=2000, aggregated_mv=2000, weight=0)  
     }   
 
     To print out the weight for each of the base funds:  
