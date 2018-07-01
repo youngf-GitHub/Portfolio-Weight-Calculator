@@ -47,9 +47,9 @@ This project is an implementation of a Portfolio Weight Calculator which was des
       Python 3.7
 
 ### Source Code:  
-        **calculator.py**  
-        **fund.py**  
-        **weight-calc.py**  
+        calculator.py  
+        fund.py  
+        weight-calc.py  
 
 ### Command Line Usage:
         python   weight-calc.py   -f portfolio_file  [  -e  portfolio_file   |   -h  ]  
