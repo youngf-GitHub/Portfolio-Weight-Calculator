@@ -27,11 +27,11 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
     The Fund A = { B(1000), C(2000) } will be presented as below in the tree_map:
 
-    {
+    { 
         A: name=A, parent='', has_child=True, mv=3000, aggregated_mv=3000, weight=0
         B: name=B, parent=A,  has_child=True, mv=1000, aggregated_mv=1000, weight=0
         C: name=C, parent=A,  has_child=True, mv=2000, aggregated_mv=2000, weight=0
-    }
+    } 
 
     To print out the weight for each of the base funds:
 
@@ -98,7 +98,7 @@ This project is an implementation of a Portfolio Weight Calculator which was des
 
         input file:
           sample__portfolio.txt      ending_portfolio.txt
-        -------------------------------------------------
+       #-------------------------------------------------
             A,B,1000                     A,B,1040
             A,C,2000                     A,C,2000
             B,D,500                      B,D,490
